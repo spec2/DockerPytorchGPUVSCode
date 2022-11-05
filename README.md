@@ -8,7 +8,7 @@
 2. Please change `volumes` of `docker-compose.yml` to match your environment.
 3. If proxy is not used, delete a proxy setting(`--proxy=http://192.168.0.15:3128 `) from the `Dockerfile`
 4. Open the folder in VSCode.
-5. Press `Ctrl+Shift+P` and input `Dev containers: Open FOlder in Container`
+5. Press `Ctrl+Shift+P` and input `Dev containers: Open Folder in Container`
 6. To check the procedure, run following commands.
    1. `python`
    2. `import torch`
