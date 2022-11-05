@@ -1,4 +1,4 @@
-# How to make a gpu environment on Docker run on VSCode
+# How to create a gpu environment on Docker run on VSCode
 ## Requirements
 - Docker
 - docker-compose
