@@ -4,7 +4,8 @@
 	"workspaceFolder": "/work",
 	"extensions": [
 	  "ms-python.python",
-	  "ms-toolsai.jupyter"
+	  "ms-toolsai.jupyter", 
+	  "ms-azuretools.vscode-docker",
 	]
   }
   

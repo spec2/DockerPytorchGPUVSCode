@@ -13,4 +13,9 @@ services:
               count: 1
               capabilities: [gpu]
     volumes:
-      - ./:/work
+      - type: bind
+        source: ./
+        target: /work
+      - type: bind
+        source: ~/.ssh
+        target: /root/.ssh
