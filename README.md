@@ -3,6 +3,8 @@
 - Docker
 - docker-compose
 - gpu(nvidia)
+- NVIDIA Container Toolkit
+- NVIDIA Driver & CUDA 
 ## procedure
 1. Run `git clone git@github.com:spec2/DockerPytorchGPUVSCode.git` on your environment.
 2. Please change `volumes` of `docker-compose.yml` to match your environment.
