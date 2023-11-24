@@ -13,4 +13,5 @@ WORKDIR /work
 COPY . /work
 COPY requirements.txt ${PWD}
 USER root
+RUN ssh-keygen -t ed25519 -N "" -f /root/.ssh/id_ed25519 -y
 RUN pip install -r requirements.txt --proxy=http://192.168.0.15:3128
