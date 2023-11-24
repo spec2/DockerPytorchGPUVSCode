@@ -13,4 +13,4 @@ services:
               count: 1
               capabilities: [gpu]
     volumes:
-      - ../CodeNet:/work
+      - ./:/work
